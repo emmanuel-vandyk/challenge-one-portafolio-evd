@@ -1,0 +1,13 @@
+:root{
+   --bg-color: #f7f7f7;
+   --fg-color-link: #000;
+   --fg-color-text: #464646;
+   --subtitle-color: #EE652B;
+}
+
+.dark__section.inverse {
+    background-color: #14191D;
+    mix-blend-mode: darken;
+    color: var(--bg-color);
+    transition: background-color 700ms ease-in-out;
+}
